@@ -1,38 +1,60 @@
-import React from 'react';
-import styled from 'styled-components';
-import { white, primaryColor, } from '../variables';
-import Fade from 'react-reveal/Fade';
+import React from "react";
+import styled from "styled-components";
+import { white, primaryColor } from "../variables";
+import Fade from "react-reveal/Fade";
 
-
-const Div = styled.div``
-const Dot = styled.div``
-const SecDiv = styled.div``
-const ReactDiv = styled.div``
-const MongoDiv = styled.div``
-const NodeDiv = styled.div``
-const Image = styled.img``
-const ExpressDiv = styled.div``
-const Row = styled.div``
-const Col = styled.div``
-const Main = styled.div``
+const Div = styled.div``;
+const Dot = styled.div``;
+const SecDiv = styled.div``;
+const ReactDiv = styled.div``;
+const MongoDiv = styled.div``;
+const JavaDiv = styled.div``;
+const Image = styled.img``;
+const ExpressDiv = styled.div``;
+const Row = styled.div``;
+const Col = styled.div``;
+const Main = styled.div``;
 const Button = styled.button`
-font-weight: bold;
-`
-const MainTitle = styled.h3``
-const Para = styled.p``
-const MainLink = styled.a``
+  font-weight: bold;
+`;
+const MainTitle = styled.h3``;
+const Para = styled.p``;
+const MainLink = styled.a``;
 
 const Section = styled.section`
     padding: 10rem 0 8rem 0;
     width: 100%;
     height: 100%;
     background: black;
-    background-image: url(${process.env.PUBLIC_URL}/images/sparrow.jpeg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(${process.env.PUBLIC_URL}/images/AA.jpg);
+    /* background-size: cover; */
+    background-position: right ;
+    background-size: 750px;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+
+    @media (max-width: 1200px) {
+        padding: 8rem 0 6rem 0;
+        background-size: 600px;
+    }
+
+    @media (max-width: 992px) {
+        padding: 6rem 0 4rem 0;
+        background-size: 500px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 4rem 0 3rem 0;
+        background-size: 400px;
+        background-position: center;
+    }
+
+    @media (max-width: 576px) {
+        padding: 2rem 0 2rem 0;
+        background-size: cover;
+        background-position: center;
+    }
 
     ${Div} {
 
@@ -115,7 +137,7 @@ const Section = styled.section`
                 border-radius: 50%;
             }
         }
-        ${NodeDiv}{
+        ${JavaDiv}{
             display: none;
             width: 100px;
             height: 100px;
@@ -144,45 +166,79 @@ const Section = styled.section`
             right: 50%;
         }
     }
-`
+`;
 
 const Hero = () => {
-    return (
-        <Section id='home'>
-            <Div className='container'>
-                <Row className='row align-items-center' id='maxheight'>
-                    <Col className='col-lg-6'>
-                        <Main>
-                           <Fade top>
-                           <Button className='btn btn-primary p-2'>Full-Stack Developer</Button>
-                           </Fade>
+  return (
+    <Section id="home">
+      <Div className="container">
+        <Row className="row align-items-center" id="maxheight">
+          <Col className="col-lg-6">
+            <Main>
+              <Fade top>
+                <Button
+                  onClick={() =>
+                    (window.location.href = "https://jarv.vercel.app/")
+                  }
+                  className="btn btn-primary p-2"
+                >
+                  Front-End Developer
+                </Button>
+              </Fade>
 
-                            <Fade left><MainTitle id='title'>Talk is cheap. show me the code</MainTitle></Fade>
-                            <Fade right><Para>I design and code beautiful simple things, and i love what i do.</Para></Fade>
+              <Fade left>
+                <MainTitle id="title">
+                  Talk is cheap. show me the code
+                </MainTitle>
+              </Fade>
+              <Fade right>
+                <Para>
+                  I design and code beautiful simple things, and i love what i
+                  do.
+                </Para>
+              </Fade>
 
-                            <Fade bottom><MainLink href='#contact'>Let's Chat</MainLink></Fade>
-                        </Main>
-                    </Col>
-                </Row>
-            </Div>
+              <Fade bottom>
+                <MainLink href="#contact">Let's Chat</MainLink>
+              </Fade>
+            </Main>
+          </Col>
+        </Row>
+      </Div>
 
-            <SecDiv className='sec-div'>
-                <ExpressDiv>
-                    <Image src={`${process.env.PUBLIC_URL}/images/express.png`} alt='express png' className='img-fluid' />
-                </ExpressDiv>
-                <MongoDiv>
-                    <Image src={`${process.env.PUBLIC_URL}/images/mongodb.png`} alt='express png' className='img-fluid' />
-                </MongoDiv>
-                <ReactDiv>
-                    <Image src={`${process.env.PUBLIC_URL}/images/react.png`} alt='express png' className='img-fluid' />
-                </ReactDiv>
-                <NodeDiv>
-                    <Image src={`${process.env.PUBLIC_URL}/images/nodejs.png`} alt='express png' className='img-fluid' />
-                </NodeDiv>
-                <Dot></Dot>
-            </SecDiv>
-        </Section>
-    )
-}
+      <SecDiv className="sec-div">
+        <ExpressDiv>
+          <Image
+            src={`${process.env.PUBLIC_URL}/images/spring.png`}
+            alt="express png"
+            className="img-fluid"
+          />
+        </ExpressDiv>
+        <MongoDiv>
+          <Image
+            src={`${process.env.PUBLIC_URL}/images/images.png`}
+            alt="express png"
+            className="img-fluid"
+          />
+        </MongoDiv>
+        <ReactDiv>
+          <Image
+            src={`${process.env.PUBLIC_URL}/images/react.png`}
+            alt="express png"
+            className="img-fluid"
+          />
+        </ReactDiv>
+        <JavaDiv>
+          <Image
+            src={`${process.env.PUBLIC_URL}/images/download.png`}
+            alt="express png"
+            className="img-fluid"
+          />
+        </JavaDiv>
+        <Dot></Dot>
+      </SecDiv>
+    </Section>
+  );
+};
 
-export default Hero
+export default Hero;

@@ -186,7 +186,7 @@ const Topbar = ({ setMenuOpen, menuOpen }) => {
                 <Logo className="navbar-brand" href="#home">
                     <ImgDiv>
                         <Codeicon />
-                        <Title>SparrowTheDev</Title>
+                        <Title>AmitTheDev</Title>
                     </ImgDiv>
                 </Logo>
 
@@ -217,13 +217,13 @@ const Topbar = ({ setMenuOpen, menuOpen }) => {
                     </Ul>
                     <Ul className="navbar-nav sec-nav">
                         <Li className="nav-item">
-                            <Link className="nav-link" aria-current="page" href="https://twitter.com/Sparrowthe_dev"><Twittericon />Twitter</Link>
+                            <Link className="nav-link" aria-current="page" href="https://x.com/AmitTalan007"><Twittericon />Twitter</Link>
                         </Li>
                         <Li className="nav-item">
-                            <Link className="nav-link" href="https://github.com/Sparrowthedev"> <Githubicon />Github</Link>
+                            <Link className="nav-link" href="https://github.com/AMITKUMAR0712"> <Githubicon />Github</Link>
                         </Li>
 
-                       <Link href='mailto:sparrowthedev@gmail.com' target='blank'>
+                       <Link href='mailto:amit.tech1970@gmail.com' target='blank'>
                        <EmailDiv className='shadow-lg'>
                             <Emailicon />
                         </EmailDiv>

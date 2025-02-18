@@ -62,7 +62,7 @@ const Footer = () => {
         <Row className="row align-items-center">
           <NameCol className="col-lg-4 bg p-3">
             <NameDiv>
-              <Name>SparrowTheDev</Name>
+              <Name>AmitTheDev</Name>
             </NameDiv>
           </NameCol>
           <CopyrightCol className="col-lg-4 p-3">
@@ -72,16 +72,16 @@ const Footer = () => {
           </CopyrightCol>
           <SocialCol className="col-lg-4  p-3">
             <SocialDiv>
-              <Link href="https://twitter.com/Sparrowthe_dev" target="blank">
+              <Link href="https://x.com/AmitTalan007" target="blank">
                 <Twittericon />
               </Link>
-              <Link href="https://github.com/Sparrowthedev" target="blank">
+              <Link href="https://github.com/AMITKUMAR0712" target="blank">
                 <Githubicon />
               </Link>
-              <Link href="https://www.linkedin.com/in/ogwuche-friday-649ba81b9/" target="blank">
+              <Link href="https://www.linkedin.com/in/amit-kumar-782939221/" target="blank">
                 <LinkedInicon />
               </Link>
-              <Link href='mailto:sparrowthedev@gmail.com' target="blank">
+              <Link href='mailto:amit.tech1970@gmail.com' target="blank">
                 <Emailicon />
               </Link>
             </SocialDiv>

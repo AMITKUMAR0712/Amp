@@ -128,7 +128,7 @@ const Services = () => {
                             </Card>
                            <Card className='p-4' id='card'>
                                 <MainTitle>
-                                    <Span>Full-Stack</Span>
+                                    <Span onclick="location.href='https://jarv.vercel.app/'">Full-Stack</Span>
                                 </MainTitle>
                                 <Para>I develop seemlessly beautiful full-stack web applications</Para>
                             </Card>
@@ -155,9 +155,9 @@ const Services = () => {
                        <Fade bottom>
                        <Secondary id='secondary'>
                             <ParaSec>Introduction</ParaSec>
-                            <SecTitle>Hello! I'm Sparrow.</SecTitle>
+                            <SecTitle>Hello! I'm AMIT.</SecTitle>
                             <Italic>Every project begin with an even better story.</Italic>
-                            <ParaMain id='para'>Since beginning my journey as a freelance designer 4 years ago, I've done remote work for agencies, consulted
+                            <ParaMain id='para'>Since beginning my journey as a freelance designer 1 years ago, I've done remote work for agencies, consulted
                              for startups, and collaborated with talented people to create single and multi-page
                               web apps for both private and public enterprises. I'm quite confident, naturally 
                               curios, and perpetually working on improving my chopsone design problem at a time.

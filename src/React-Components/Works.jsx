@@ -242,9 +242,9 @@ const TitleSec = styled.h2`
   color: #d6d6d6;
   margin: 0;
 `;
-const TitleSecMain = styled.h2`
-  color: ${primaryColor};
-`;
+// const TitleSecMain = styled.h2`
+//   color: ${primaryColor};
+// `;
 const ParaSec = styled.p`
   width: 70%;
   color: #d4d2d2;
@@ -304,7 +304,7 @@ const Works = () => {
                 <Bottom>
                   <BottomMainDiv>
                     <LiveDiv>
-                      <TitleSec>Invoice App</TitleSec>
+                      <TitleSec>Jarv Franchise Site</TitleSec>
                       <LiveLink href="https://invoice-app-nine-ashen.vercel.app/home" target="blank">
                         <LiveInnerDiv>
                           <LivePara>Live site </LivePara>
@@ -349,8 +349,8 @@ const Works = () => {
               <ColTwoDiv>
                 <ColTwoMainDiv>
                 <LiveDiv>
-                      <TitleSec>Shortly</TitleSec>
-                      <LiveLink href="https://sparrowthedev.github.io/Url-shortener/" target="blank">
+                      <TitleSec>FOOD BOX Site</TitleSec>
+                      <LiveLink href="https:" target="blank">
                         <LiveInnerDiv>
                           <LivePara>Live site </LivePara>
                           <svg
@@ -401,8 +401,8 @@ const Works = () => {
               <ColFourMainDiv>
                 <ColFourTop>
                 <LiveDiv>
-                      <TitleSec>Sparrow AI</TitleSec>
-                      <LiveLink href="https://sparrowthedev.github.io/Sparrow-AI/" target="blank">
+                      <TitleSec>E-Mart</TitleSec>
+                      <LiveLink href="https:" target="blank">
                         <LiveInnerDiv>
                           <LivePara>Live site </LivePara>
                           <svg
@@ -423,9 +423,9 @@ const Works = () => {
 
                   <ColFourDivSpan>
                     <Left>React</Left>
-                    <Center>MongoDb</Center>
-                    <Right>Nodejs</Right>
-                    <Right>Expressjs</Right>
+                    <Center>MySQL</Center>
+                    <Right>Spring</Right>
+                    <Right>Java</Right>
                   </ColFourDivSpan>
                 </ColFourTop>
 
