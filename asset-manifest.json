@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sparrow-Portfolio/static/css/main.feac3515.css",
+    "main.js": "/Sparrow-Portfolio/static/js/main.4b857206.js",
+    "index.html": "/Sparrow-Portfolio/index.html",
+    "main.feac3515.css.map": "/Sparrow-Portfolio/static/css/main.feac3515.css.map",
+    "main.4b857206.js.map": "/Sparrow-Portfolio/static/js/main.4b857206.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feac3515.css",
+    "static/js/main.4b857206.js"
+  ]
+}
